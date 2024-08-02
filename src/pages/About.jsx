@@ -3,6 +3,8 @@ import {
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 import { skills, experiences } from "../constants";
 import CTA from "../components/CTA";
@@ -46,7 +48,12 @@ const About = () => {
         <div className="block-container lg:w-80 lg:h-80 md:w-60 md:h-60 w-40 h-40 mt-10 mr-10">
           <div className="btn-back rounded-xl" />
           <div className="btn-front rounded-xl flex justify-center items-center">
-            <img src={myself} alt="img" className="object-contain" />
+            <LazyLoadImage
+              src={myself}
+              alt="myself_image"
+              className="object-contain"
+              effect="blur"
+            />
           </div>
         </div>
       </div>
