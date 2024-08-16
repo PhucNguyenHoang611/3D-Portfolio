@@ -23,7 +23,9 @@ import {
   figma,
   snapgram,
   threads,
-  facebook
+  facebook,
+  sql,
+  sqlServer
 } from "../assets/icons";
 
 export const skills = [
@@ -95,6 +97,16 @@ export const skills = [
   {
     imageUrl: mongodb,
     name: "MongoDB",
+    type: "Database"
+  },
+  {
+    imageUrl: sql,
+    name: "SQL",
+    type: "Database"
+  },
+  {
+    imageUrl: sqlServer,
+    name: "SQL Server",
     type: "Database"
   },
   {

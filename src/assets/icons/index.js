@@ -31,6 +31,8 @@ import angular from "./angular.svg";
 import bootstrap from "./bootstrap.svg";
 import docker from "./docker.svg";
 import figma from "./figma.svg";
+import sql from "./sql.svg";
+import sqlServer from "./sql-server.svg";
 
 export {
   css,
@@ -65,5 +67,7 @@ export {
   bootstrap,
   docker,
   figma,
-  facebook
+  facebook,
+  sql,
+  sqlServer
 };
